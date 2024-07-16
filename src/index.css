@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #fefefe; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scroll thumb */
+  border-radius: 20px; /* Roundness of the scroll thumb */
+  border: 3px solid #f1f1f1; /* Padding around the scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5e5e5e; /* Color of the scroll thumb when hovered */
+}
