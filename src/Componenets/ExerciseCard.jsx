@@ -9,9 +9,9 @@ function ExerciseCard({ exercise, setExercises }) {
   return (
     <Link
       to={`/exercise/${exercise.id}`}
-      className=" -xl m-2 p-4  hover:border-2 hover:shadow-2xl hover:shadow-black border-black border-[1px] hover:scale-105 transition-transform  rounded-xl border-gray-500 min-h-48 md:min-h-[500px] shadow-lg shadow-gray-500"
+      className="  m-2 p-2 pl-5 pr-5 hover:border-2 hover:shadow-2xl hover:shadow-black border-black border-[1px] hover:scale-105 transition-transform  rounded-xl border-gray-500 min-h-48 md:min-h-[500px] shadow-lg shadow-gray-500"
     >
-      <li className=" w-52 md:w-64 h-auto  ">
+      <li className=" w-52 md:w-52 h-auto  ">
         <div className="flex flex-col justify-between  items-start ">
           <figure className="m-auto">
             <img
