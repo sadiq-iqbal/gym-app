@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#808487] text-white py-10">
+    <footer className="bg-[#808487] max-w-full overflow-hidden text-white py-10">
       <div className="container mx-auto px-6">
         <div className="flex flex-wrap justify-between">
           <div className="w-full sm:w-1/2 md:w-1/4 mb-6">
@@ -39,7 +39,7 @@ const Footer = () => {
               <li className="mb-2">Node.js</li>
             </ul>
           </div>
-          <div className="w-full sm:w-1/2 md:w-1/4 mb-6">
+          <div className=" mb-6 ">
             <h5 className="font-bold mb-2">Follow Us</h5>
             <ul className="flex space-x-4">
               <li>

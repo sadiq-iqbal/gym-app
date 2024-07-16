@@ -20,8 +20,11 @@ function Exercises({ exercises, setExercises, loading }) {
 
   return (
     <section id="exercises">
-      <div className=" w-[95%] m-auto  border-black mt-20">
-        <ul className="flex flex-row justify-center items-center gap-7 flex-wrap m-auto">
+      <div className=" w-[95%] m-auto  border-black mt-10">
+        <h1 className="text-3xl text-center mb-8 font-bold  ">
+          Showing Results
+        </h1>
+        <ul className="flex flex-row justify-center items-center gap-3 flex-wrap m-auto">
           {currentExercises.map((exercise) => (
             <ExerciseCard
               key={exercise.id}
